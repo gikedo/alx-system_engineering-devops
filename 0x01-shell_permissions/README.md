@@ -18,16 +18,18 @@ file 8-James_Bond sets the permission to the file hello to all permission for gr
 
 file 9-John_Doe sets the mode of the file hello to "-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello"
 
-file 
+file 10-mirror_permissions sets the mode of the file hello the same as olleh’s mode 
 
-file 
+file 11-directories_permissions adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 
-file 
+file 12-directory_permissions creates a directory called my_dir with permissions 751 in the working directory.
 
-file 
+file 13-change_group changes the group owner to school for the file hello in the working directory.
 
-file 
+file 100-change_owner_and_group changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 
-file 
+file 101-symbolic_link_permissions changes the owner and the group owner of _hello to vincent and staff respectively.
 
-file 
+file 102-if_only changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+file 103-Star_Wars plays the StarWars IV episode in the terminal.
